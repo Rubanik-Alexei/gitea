@@ -147,7 +147,7 @@ func RenameBranch(repo *repo_model.Repository, doer *user_model.User, gitRepo *g
 	return "", nil
 }
 
-// enmuerates all branch related errors
+// enumerates all branch related errors
 var (
 	ErrBranchIsDefault   = errors.New("branch is default")
 	ErrBranchIsProtected = errors.New("branch is protected")
